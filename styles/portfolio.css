@@ -140,3 +140,29 @@ main {
 .skills {
     margin-bottom: 80px;
 }
+
+/* Resume section styles */
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
