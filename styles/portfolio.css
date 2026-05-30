@@ -31,6 +31,10 @@
 .section-description {
     font-size: 18px;
     color: #757575;
+} 
+
+.text-center {
+    text-align: center;
 }
 
 /* Header styles */
@@ -115,4 +119,24 @@ main {
 
 .item-description {
     font-weight: bold;
+}
+
+/* Skills section styles */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ /* box-shadow: x y blur spead #000000; */
+} 
+
+.skills-container {
+    margin-top: 30px;
+}
+
+.skills {
+    margin-bottom: 80px;
 }
